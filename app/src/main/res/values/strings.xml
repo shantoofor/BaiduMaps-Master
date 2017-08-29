@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">百度地图演示</string>
+    <string name="baidu_map">百度地图</string>
+    <string name="baidu_location">百度定位</string>
+    <string name="baidu_navigation">百度导航</string>
+
+    <string name="nav_release">我的发布</string>
+    <string name="nav_order">我的订单</string>
+    <string name="nav_wallet">个人钱包</string>
+    <string name="nav_messages">消息中心</string>
+    <string name="nav_owner_attestation">车主认证</string>
+    <string name="nav_partner">合伙人入口</string>
+    <string name="nav_share">一键分享</string>
+    <string name="nav_guide">使用指南</string>
+    <string name="nav_settings">系统设置</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+</resources>

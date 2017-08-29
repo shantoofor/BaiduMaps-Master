@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/left_navigation_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_release"
+            android:icon="@drawable/ic_release"
+            android:title="@string/nav_release" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_order"
+            android:title="@string/nav_order" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/nav_wallet" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_messages"
+            android:title="@string/nav_messages" />
+        <item
+            android:id="@+id/nav_owner_attestation"
+            android:icon="@drawable/ic_attestation"
+            android:title="@string/nav_owner_attestation" />
+        <item
+            android:id="@+id/nav_partner"
+            android:icon="@drawable/ic_attestation"
+            android:title="@string/nav_partner" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/nav_share" />
+        <item
+            android:id="@+id/nav_guide"
+            android:icon="@drawable/ic_guide"
+            android:title="@string/nav_guide" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/nav_settings" />
+    </group>
+</menu>
