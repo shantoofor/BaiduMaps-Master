@@ -29,7 +29,7 @@ import java.io.InputStream;
  * 作者: shantoo on 2017/8/29 15:46.
  */
 
-public class BaseMap extends Fragment{
+public class BaseMapFragment extends Fragment {
 
     private MapView mMapView;
     private static String TAG;
@@ -63,7 +63,6 @@ public class BaseMap extends Fragment{
 
         initView(getContext());
         MapView.setMapCustomEnable(true);
-
     }
 
     @Nullable
@@ -94,8 +93,8 @@ public class BaseMap extends Fragment{
         closeBtn.setTextColor(Color.WHITE);
         closeBtn.setId(CLOSE_ID);
         group.addView(closeBtn, params);
-        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT);
+        FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT,
+                FrameLayout.LayoutParams.WRAP_CONTENT);
 
         if (mEnableCustomStyle) {
             openBtn.setChecked(true);

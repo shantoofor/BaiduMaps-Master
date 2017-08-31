@@ -1,4 +1,4 @@
-package com.shantoo.baidumaps.master.ui.fragment.baidumap;
+package com.shantoo.baidumaps.master.ui.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,19 +9,16 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * 作者: shantoo on 2017/8/29 15:46.
+ * 作者: shantoo on 2017/8/30 17:17.
  */
 
-public class MapFragment extends Fragment {
-
-    private static String TAG;
+public class ChildFragment extends android.support.v4.app.Fragment {
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        TAG = this.getClass().getSimpleName();
         TextView textView = new TextView(getContext());
-        textView.setText(TAG);
+        textView.setText("百度地图");
         return textView;
     }
 }

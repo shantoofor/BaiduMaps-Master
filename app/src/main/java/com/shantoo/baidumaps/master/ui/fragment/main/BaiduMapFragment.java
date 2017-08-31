@@ -10,46 +10,17 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.shantoo.baidumaps.master.R;
-import com.shantoo.baidumaps.master.ui.fragment.baidumap.BaseMap;
-import com.shantoo.baidumaps.master.ui.fragment.baidumap.GeoCode;
-import com.shantoo.baidumaps.master.ui.fragment.baidumap.Geometry;
-import com.shantoo.baidumaps.master.ui.fragment.baidumap.HeatMap;
-import com.shantoo.baidumaps.master.ui.fragment.baidumap.Layers;
-import com.shantoo.baidumaps.master.ui.fragment.baidumap.Location;
-import com.shantoo.baidumaps.master.ui.fragment.baidumap.MapControl;
-import com.shantoo.baidumaps.master.ui.fragment.baidumap.MapFragment;
-import com.shantoo.baidumaps.master.ui.fragment.baidumap.MultiMapView;
-import com.shantoo.baidumaps.master.ui.fragment.baidumap.Overlay;
-import com.shantoo.baidumaps.master.ui.fragment.baidumap.UISettings;
+import com.shantoo.baidumaps.master.ui.fragment.ChildFragment;
 import com.shantoo.develop.library.ui.widget.viewpager.ViewPagerBinder;
 
 public class BaiduMapFragment extends Fragment {
 
     private String[] titles = {
-            "BaseMap",
-            "MapFragment",
-            "Layers",
-            "MultiMapView",
-            "MapControl",
-            "UISettings",
-            "Location",
-            "Geometry",
-            "Overlay",
-            "HeatMap",
-            "GeoCode"};
+            "ChildFragment"
+    };
 
     private Fragment[] fragments = {
-            new BaseMap(),
-            new MapFragment(),
-            new Layers(),
-            new MultiMapView(),
-            new MapControl(),
-            new UISettings(),
-            new Location(),
-            new Geometry(),
-            new Overlay(),
-            new HeatMap(),
-            new GeoCode()
+            new ChildFragment()
     };
 
     @Nullable
